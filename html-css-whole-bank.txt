@@ -1,0 +1,213 @@
+Question 1
+You are defining CSS classes to style text in your HTML document.
+You need to format section titles to look like the following example:
+Section Title
+Which CSS attributes should you use to define each setting? Each
+attribute may be used once, more than once, or not at all.
+
+Arial Answer = font-family
+100 Answer = font-weight
+italic Answer = font-style
+large Answer = font-size
+
+
+Question 2
+You are designing a webpage for Contoso by using HTML. You need to create content for the head section.
+Which four markup segments should you use?
+To answer, move the appropriate markup segments from the list of markup segments to the answer area and arrange them in the correct order.
+NOTE: More than one order of answer choices is correct. You will receive credit for any of the correct orders you select.
+
+Answer = 
+<head>
+    <title>About Contoso</title>
+    <meta charset="utf-8">
+</head>
+
+
+Question 3
+You are creating a website for Northwind Traders appear on the browser tab. There will also be a paragraph that greets users to the site. You need to create the structure of the website.
+In which order should you arrange the markup segments to develop the solution?
+To answer, move all markup segments from the list of markup segments to the answer area and arrange them in the correct order. 
+
+Answer = 
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Northwind Traders</title>
+    </head>
+    <body>
+        <p>Welcome to the Northwind Traders website.</p>
+    </body>
+</html>
+
+
+Question 4
+For each of the following statements, select Yes if the statement is true. Otherwise, elect No.
+NOTE: Each correct selection is worth one point. 
+
+A relative link requires that you use a protocol and server path   
+Answer = NO
+You can link to a document in a subdirectory of the current webpage by specifying only the subdirectory name and the filename   
+Answer = YES
+You can use a relative link to reference images files from a repository on a different server   
+Answer = NO
+The following example of how you format an absolute link: https://www.contoso.com/products.html
+Answer = YES
+
+
+Question 5
+You are creating a website for a florist.
+The home page contains images of different types of flowers. When the user clicks on a flower, another webpage will load that displays flowers of that type sold by the florist.
+The link for carnations must meet the following requirements:
+-> [1]
+-> When the image is clicked, the page carnations.html must load.
+How should you complete the markup? To answer, select the appropriate markup segments in the answer area.
+
+Answer = 
+<a href="carnations.html"><img src="carnations.png"></a>
+
+
+Question 6
+Which CSS property is used to draw a line over text, through text, or under text?
+
+Answer = 
+text-decoration
+
+
+Question 7
+You are creating an About Us webpage for Northwind Traders. You want to complete the CSS rule set to display the paragraph as shown in the following example:
+How should you complete the code? To answer, select the appropriate CSS properties in the answer area.
+
+Answer = 
+<style>
+    p {        
+        color: #0000FF;   
+        text-indent: 50px;      
+        font-size: 1.5em;       
+        font-style: italic;
+    }
+</style>
+
+
+Question 8
+You are analyzing the following CSS for an element on a page:
+background: #0000FF url(“Watermark.png”) repeat-x right;
+For each of the following statements, select Yes if the statement is true. Otherwise, select No.
+
+The background of the page will be red.    
+Answer = No
+The page will display the watermark multiple times horizontally starting at the right.    
+Answer = Yes
+
+
+Question 9
+For each of the following markup segments, select Yes if the HTML element belongs in the head block. Otherwise, select No
+
+ 
+
+<style>h1 {color: red;}</style>   
+Answer = Yes
+<h1>Welcome</h1>   
+Answer = No
+<link rel="stylesheet" href="default.css" />   
+Answer = Yes
+<title>Contact Information</title>   
+Answer = Yes
+<!DOCTYPE html>   
+Answer = No
+
+
+Question 10
+You are designing a website for Margie's Travel. The website uses external stylesheets.
+You need to create a style that centers all h1 elements on the page.
+How should you complete the code? 
+
+Answer = 
+h1 {
+    text-align: center;
+}
+
+
+Question 11
+
+
+Question 12
+
+
+Question 13
+
+
+Question 14
+
+
+Question 15
+
+
+Question 16
+
+
+Question 17
+
+
+Question 18
+
+
+Question 19
+
+
+Question 20
+
+
+Question 21
+
+
+Question 22
+
+
+Question 23
+
+
+Question 24
+
+
+Question 25
+
+
+Question 26
+
+
+Question 27
+
+
+Question 28
+
+
+Question 29
+
+
+Question 30
+
+
+Question 31
+
+
+Question 32
+
+
+Question 33
+
+
+Question 34
+
+
+Question 35
+
+
+Question 36
+
+
+Question 37
+
+
+Question 38
+
