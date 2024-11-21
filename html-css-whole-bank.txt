@@ -129,39 +129,241 @@ h1 {
 
 
 Question 11
+You are designing a webpage that is divided into several sections.
+Each section has a heading and a one-line quote.
+The following example shows the top section rendered by using the browser default styles:
+Quote from Yesterday
+Tomorrow is not promised
+
+Answer = 
+<div>
+<h1>Quote from Yesterday</h1>
+<p>Tomorrow is not promised</p>
+</div>
 
 
 Question 12
+You are designing a webpage for your company. The page must be responsive so that it can be viewed on both mobile and desktop browsers.
+On mobile browsers, or those with a screen width of less than 768 pixels you want to display a welcome background image named SmalLogo.png.
+On all other browsers, you want to display a welcome background image named NormalLogo.png.
+How should you complete the code? To answer, select the appropriate code segment in the answer area
+
+Answer = 
+.welcome {
+    background-image:url("NormalLogo.png");
+}
+
+@media only screen and (max-width:768px){
+    .welcome{
+        background-image:url("SmallLogo.png");
+    }
+}
 
 
 Question 13
+You are analyzing a form that sends multiline comments to another page on the Internet. The following is the form's markup: 
+
+< form action— "http://www.contoso.com/recievecoments.asp"
+        method— "post" >
+        Comments  :  <br>
+        <textarea id= "comments" >< / textarea >
+        <input type— "submit" value— "Submit" >
+< / form >
+No data is sent when the form is submitted.
+You need to solve this problem so that the data in the text box is submitted.
+What should you do? 
+
+Set the id attribute of the form element. 
+Replace the textarea element with an input element. 
+Set the name attribute of the textarea element.
+Change the value of the method attribute to get. 
+
+Answer = Set the name attribute of the textarea element.
 
 
 Question 14
+The external stylesheet named mystyles.css contains the following three rules. 
+
+h1 { color : blue; }
+h2 { color : purple; }
+p { color : grey; }
+
+The head section of a webpage contains the following markup:
+
+<link rel="stylesheet" type="text/css href="mystyles.css">
+<style>
+      h1 { color : maroon; }
+      h2 { color : blue; }
+      p { color : black; }
+<style/>
+
+The following elements appear within the body of the webpage:
+
+<h1 style="color : black;" > AdventureWorks Presents </h><h2>Rock Climbing 101 </h1>
+<p style="color : blue;">Coming soon!</p>
+<h1>Awards</h1>
+<p>Certificates will be awarded in June. </p>
+
+For each of the following statements, select Yes if the statement is true. Otherwise, select No:
+
+"Certificates will be awarded in June" is displayed in grey.    
+Answer = No
+"Coming soon!" is displayed in blue.     
+Answer = Yes
+"Awards" is displayed in maroon:    
+Answer = Yes
+"Rock climbing 101" is displayed in purple    
+Answer = No
 
 
 Question 15
+You are creating a web form to allow visitors to sign up for a mailing list. The form will collect the information that is shown in the following screen shot:
+
+Which code segment will display the form element labeled A?  
+Answer = <input type= "checkbox" name= "subscribe" value="Yes">
+Which segment display the form element labeled B?   
+Answer = <input type="radio" name= "frequency" value= "daily" checked>
+Which segment will display the form element labeled C?
+Answer = <input type= "submit" value= "Submit>
 
 
 Question 16
+You are creating a web page that displays a How-To video.
+When accessing the video, the user must be able to play, pause, and seek. The file name of the video is HowTo.mp4, and exists in the same folder as the webpage.
+If the user’s browser does not support HTML5, the page must display this message: Your browser does not support playing this video.
+How should you construct the markup? To answer, drag the appropriate markup segments to the correct locations. Each markup segment may be used once, more than once, or not at all.
+
+Answer = 
+<video controls>
+    <source src="HowTo.mp4" type="video/mp4">
+    Your browser does not support playing this video.
+</video>
 
 
 Question 17
+This question requires that you evaluate the underlined text to determine if it is correct.
+Static positioning places an element at specific coordinates relative to the page or the element’s container.
+Review the underlined text. If it makes the statement correct, select “No change is needed.” If the statement is incorrect, select the answer choice that makes the statement correct.
+
+Fixed positioning
+Absolute positioning
+Relative positioning
+No change is needed
+
+Answer = Absolute positioning
 
 
 Question 18
+You are creating a page on your personal website to display your family portrait
+You need to make sure that browsers display the text Family Portrait before the photo is downloaded.
+How should you complete the markup? 
+* Markup segment may be used once, more than once, or not at all
 
+Answer = 
+<img src="portrait.png" alt="Family Portrait">
+ 
 
 Question 19
+You want to complete the pseudo class for link elements so that the links appear red when the page loads, green when the link is clicked, orange when the cursor moves over the link, and blue if the link was clicked previously.
+How should you complete the code? To answer, drag the appropriate CSS selector to the correct locations. Each selector may be used once, more than once, or not
+at all.
+
+Answer = 
+a : link {;color: red}
+a : visited {;color: blue}
+a : hover {;color: orange}
+a : active {;color: green}
 
 
 Question 20
+You need to create the following web page:
+Which five markup segments should you use to develop the solution? To answer, arrange the markups in the correct order.
+
+Answer = 
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About Us</a>
+    <a href="#">About Us</a>
+</nav>
+<article>
+    <h1>Our Mission</h1>
+    <p>
+        Northwind traders--your #1 source of Specialty food items and beverages
+    </p>
+</article>
+<article>
+    <figure>
+        <img src="Images/NorthwindLogo.gif" alt="Northwind Traders Logo" width="100" height="100">
+        <figcaption>Northwind Traders Logo</figcaption>
+    </figure>
+    <p>
+        Northwind traders
+    </p>
+</article>
+<article>
+    <h1>Our Guarantee</h1>
+    <p>
+        Northwind Traders offers availability 24 Hours a day, 7 days a week, 365 days per year.
+    </p>
+</article>
+<footer>
+    <hr>
+    Copyright (c) Northwind Traders, 2017
+</footer>
 
 
 Question 21
+You are designing a website for Litware, Inc.
+A webpage must display the following list of numbered steps:
+
+1. Download.
+2. Install the update.
+3. Restart your computer.
+
+You need to create the necessary markup
+
+What is the correct opening tag for the list?    
+Answer = <ol>
+What is the correct tag for each item list?        
+Answer = <li>
 
 
 Question 22
+You define the following styles in a style block:
+
+<style>
+      #style1 {
+                color: red;
+                font-size: 30px;
+      }
+      #style2 {
+                color: blue;
+                font-size: 40px;
+      }
+      #style3 {
+                color: green;
+                font-size: 20px;
+      }
+    </style>
+    
+You write the following HTML:
+
+01  <body style="color: purple; font-size: 10px;">
+02      <p id = "style1">Fasten your seat belt</p>
+03      <p>Look both ways before pulling out.</p>
+04      <p id= "style3" style= "color: red;">Watch your speed</p>
+05      <p style="color: green; font-size: 20px;">Be ready to stop</p>
+06      <p style="color: red;">Study the rules of the road</p>
+07      <p style="font-size: 30px;">You'll be driving in no time</p>
+08    </body>
+
+Use the drop-down menus to select the answer choice that answers each question based on the information presented in the CSS style and markup.  
+
+Line 02 displays text in which color?  
+
+Line 02 displays text in which font size?  
+
+Line 03 displays text in which color?  
 
 
 Question 23
