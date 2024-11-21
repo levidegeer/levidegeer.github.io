@@ -345,7 +345,7 @@ You define the following styles in a style block:
                 font-size: 20px;
       }
     </style>
-    
+
 You write the following HTML:
 
 01  <body style="color: purple; font-size: 10px;">
@@ -360,56 +360,282 @@ You write the following HTML:
 Use the drop-down menus to select the answer choice that answers each question based on the information presented in the CSS style and markup.  
 
 Line 02 displays text in which color?  
-
+Answer = red
 Line 02 displays text in which font size?  
-
+Answer = pixels 30
 Line 03 displays text in which color?  
+Answer = purple
 
 
 Question 23
+You are designing a website for City Power & Light.
+You write the following markup. Line numbers are included for reference only
+
+01  <! DOCTYPE html>
+02    <html>
+03      <head>
+04              <title>City Power & Light</title>
+05      </head>
+06      <body>
+07              <p>Welcome to City Power & Light. </p>
+08      </body>
+09    </html>
+
+What style will be used to render the code?
+
+An international style will be used
+The browser default style will be used. 
+An external style will be used. 
+An inline style will be used
+
+Answer = The browser default style will be used
 
 
 Question 24
+You are creating an HTML page that displays a how-to guide for a card game. You want to use the browser's default style sheet.
+You need to display the following content: 
+How should you complete the markup?
+
+Answer = 
+h1> How to Play </h1>
+<p>
+    Disregard the jokers. 
+    Then deal one card to each player until 
+    Ail the cards in the deck have been dealt. 
+</p>
+<hr>
+<p>
+       The player to your right plays first
+</p>
 
 
 Question 25
+You are creating an HTML document that displays a list of news articles.
+The list has the following requirements:
+
+Each article must be its own semantic block.
+Each article must have a headline.
+Each article must have a section that contains its content.
+For browsers that support the feature, the content must be hidden until the user clicks to reveal it.
+
+The following shows how the article displays when the article content is hidden: 
+You need to create the markup for an article.
+
+Answer = 
+<aricle>
+    <details>
+        <summary>
+            Article headline
+        </summary>
+        <p>This is the article body</p>
+    </details>
+</article>
 
 
 Question 26
+You need to display an image of an HTML5 logo in one of your webpages. If the page renders slowly, the text “HTML Icon” should display as the image loads.
+How should you complete the markup? The answer, select the appropriate markup segments in the answer area
+
+Answer = 
+<img src="html5.gif" alt="HTML5 Logo">
 
 
 Question 27
+You are creating an HTML document that contains an essay with two sections. You need to make it easy for the user to navigate from the top of the document to section 1.
+How should you complete the markup?
+
+The markup defining the page should be:   
+Answer = <a href="#Section2">Section 2</a>
+The markup defining the anchor for section 2 should be:
+Answer = <a id="Section2">Section2</a>
 
 
 Question 28
+A webpage contains the following HTML:
+
+01  <div style = "position:relative; display:inline;">Welcome!</div>
+02  <div style = "position:relative; display:inline;">
+03        How is the Internet different from the Web?
+04        <img src = "icon.jpg" alt="TCP/IP icon" style="float:left; height:200px;"></img>
+05        <p>The Internet is a network of networks, defined by the TCP/IP standards.</p>
+06        <p>The Web is an information space</p>
+07  </div>
+
+Line 03 will display next to Line 01.    
+Answer = Yes
+The image will display beneath the text on Line 03.    
+Answer = No
+Lines 05 and 06 display beneath the image.
+Answer = Yes
 
 
 Question 29
+Analyze the following CSS for a webpage:
+
+<!DOCTYPE html>
+<html> 
+  <head>
+    <style>
+      p {
+        background-color : blue;
+      }
+      .light {
+        background-color : yellow;
+      }
+      .light p {
+        background-color : green;
+      }
+    </style>
+  </head>
+  <body>
+      <div class="light" style="background-color:pink">
+              <p>This is some sample text</p>
+      </div>
+  </body>
+</html>
+
+What is the resulting background color of the paragraph element? 
+
+Blue
+Green
+Pink
+Yellow
+
+Answer = Green
 
 
 Question 30
+You need to create a stylesheet that will cause all h1 header text to appear in blue, using the Arial font with a size of 20 pixels. The text should always be bold and center-aligned.
+How should you complete the code? To answer, drag the appropriate CSS property to the correct locations. Each property may be used once, more than once, or not at all.
+
+Answer = 
+h1 {
+    color: blue;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
 
 
 Question 31
+You are designing a webpage for your company.
+You want to display an image named contoso.png on the page. If the user’s Internet connection is slow, or if the user is visually impaired, you want the text Contoso Logo to be displayed or read aloud.
+How should you complete the markup? 
+
+Answer = 
+<img src="contoso.png alt="Contoso Logo">
 
 
 Question 32
+You are designing a webpage that tests a user's ability to remember a list of ordered items in a particular category.
+The page must contain a header that displays the category and a list of items in that category
+
+Fruit -
+1. Apple
+2. Pear
+3. Orange
+
+This page will test your ability to remember the order of the preceding items.
+Glance at the list for 3 seconds.
+Then close your eyes and recite the items in the order listed
+How should you complete the markup? To answer, select the appropriate markup segment in the answer area.
+
+Answer = 
+<h1>Fruit</h1>
+<ol>
+    <li>Apple</li>
+    <li>Pear</li>
+    <li>Orange</li>
+</ol>
 
 
 Question 33
+For each of the following statements, select Yes if the statement is true. Otherwise, select No
+
+A CSS comment starts with /* and ends with */   
+Answer = Yes
+Percent and EM are relative measurements and the size of each depends upon its parent.    
+Answer = Yes
+Pixels are recommended units for specifying size.   
+Answer = No
+The font-family attribute helps ensure maximum compatibility between web browsers. 
+Answer = Yes
 
 
 Question 34
+You are building a website and want to have three main links called Home, Product Info, and Contact Us.
+You will create a hierarchy of page elements and revise the stylesheets.
+You want to apply a style to all elements in a document.
+Which type selector should you use? 
+
+:
+>
++
+*
+
+Answer = *
 
 
 Question 35
+You are creating a simple HTML page that displays the text, Hello World.
+You must ensure that the markup is well-formed and conforms to industry best practices. How should you construct the page?
+To answer, drag the appropriate HTML tags to the correct HTML tags to the correct HTML tag locations. Each tag may be used once, more than once, or not at all.
+
+Answer = 
+<!DOCTYPE html>
+<html>
+    <body>
+        Hello World
+    </body>
+</html>
 
 
 Question 36
+You are creating an image link to the clients.html page.
+When the visitor clicks on the clients.gif graphic, the clients.html page must display in a new window. The graphic must provide text for screen readers and display text while the page is loading.
+How should you complete the markup? To answer, select the appropriate markup segments in the answer area.
+
+Answer = 
+<a href="clients.html" target="_blank">
+    <img src="clients.gif" alt="Clients image">
+</a>
 
 
 Question 37
+You are creating a home page for Blue Yonder Airlines. The page will use JavaScript. If a browser does not support JavaScript, the following message must be displayed:
+Your browser does not support JavaScript!
+For the Blue Yonder Airlines home page, match the metadata element to the content or attribute-value pair.
+To answer, drag the appropriate metadata element form the column on the left to its content or attribute-value pair on the right. Each metadata element may be used once, more than once, or not at all.
+
+href="style.css"
+Answer = <meta>
+src="_js/form.js"
+Answer = "<script>"
+Blue Yonder Airlines
+Answer = "<title>"
+Your browser does not support JavaScript!
+Answer = "<noscript>"
 
 
 Question 38
+This question requires that you evaluate the underlined text to determine if it is correct.
+You are reviewing a stylesheet created be a member of your team. The stylesheet includes a style that is defined as follows:
+
+.product {
+    color: #000000;
+    background-color: #00FF00;
+}
+
+You apply the productBox style to a <div>.
+This question requires that you evaluate the underlined text to determine if it is correct.
+The <div> will be displayed with white text on a green background.
+Review the underlined text. If it makes the statement correct, select “No change is needed.” If the statement is incorrect, select the answer choice that makes the statement correct.
+
+Black text on a green background
+Black text on a blue background
+No change is needed
+White text on a red background
+
+Answer = Black text on a green background
 
