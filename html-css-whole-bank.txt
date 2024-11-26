@@ -397,7 +397,7 @@ You need to display the following content:
 How should you complete the markup?
 
 Answer = 
-h1> How to Play </h1>
+<h1> How to Play </h1>
 <p>
     Disregard the jokers. 
     Then deal one card to each player until 
